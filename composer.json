@@ -1,0 +1,8 @@
+{
+    "name": "yishuixm/apistore",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">5.5"
+    }
+}
