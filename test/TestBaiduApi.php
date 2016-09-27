@@ -8,4 +8,4 @@ $Api = new \yishuixm\apistore\BaiduApi();
 //print_r($Api->datatiny_cardinfo_cardinfo('',''));
 //print_r($Api->apistore_idservice_id('',''));
 
-print_r($Api->apistore_mobilenumber_mobilenumber('ba85fb304f7675b4ed27558f842951ef','18523054802'));
+print_r($Api->apistore_mobilenumber_mobilenumber('',''));
