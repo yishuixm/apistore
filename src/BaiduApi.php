@@ -54,7 +54,7 @@ class BaiduApi
     }
 
     /**
-     * 身份证查询
+     * 手机号查询
      * URL: http://apistore.baidu.com/apiworks/servicedetail/735.html
      * Date: 2016/9/27
      * Author: 1830802211@qq.com
