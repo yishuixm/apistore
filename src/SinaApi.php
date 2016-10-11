@@ -24,6 +24,7 @@ class SinaApi
         if($headerParam){
             curl_setopt($ch, CURLOPT_HTTPHEADER  , $headerParam);
         }
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         // 执行HTTP请求
         curl_setopt($ch, CURLOPT_URL , $url);
         if($postData){
@@ -32,7 +33,7 @@ class SinaApi
         }
 
         $res = curl_exec($ch);
-        return $res;
+        return json_decode($res, true);
     }
 
     /**
