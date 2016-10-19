@@ -21,10 +21,6 @@ class Ht3gApi
         $this->password = $password;
     }
 
-    function Ht3cApi($userid, $account, $password){
-        $this->__construct($userid, $account, $password);
-    }
-
     // POST 请求
     private function curl_post($url, $post_data){
         $ch = curl_init();
