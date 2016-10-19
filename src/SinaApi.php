@@ -18,7 +18,7 @@ class SinaApi
         $ch = curl_init();
         $url = "{$url}?{$urlParam}";
 
-        print_r($url);
+//        print_r($url);
 
         // 添加apikey到header
         if($headerParam){
