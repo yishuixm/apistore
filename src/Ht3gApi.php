@@ -9,7 +9,7 @@
 namespace yishuixm\apistore;
 
 
-class Ht3cApi
+class Ht3gApi
 {
     private $userid;
     private $account;
