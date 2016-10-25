@@ -44,12 +44,13 @@ class AmapWSApi
      * @param $address 结构化地址信息
      * @param $city 查询城市
      */
-    public function geocode_geo($key, $address, $city = '')
+    public function geocode_geo($key, $address, $city = '',$batch=false)
     {
         $url = self::API_URL . implode("/", explode('_', __FUNCTION__));
         $data['key'] = $key;
         $data['address'] = $address;
         $data['city'] = $city;
+        $data['batch'] = $batch;
         $data['output'] = 'JSON';
 
         return $this->remoteApi($url,false,http_build_query($data), false);
